@@ -7,4 +7,4 @@ RUN rm -rf eflyer.zip &&\
 cp -rf eflyer/* . &&\
 rm -rf eflyer &&\
 EXPOSE 80
-CMD ["/usr/sbin/httpd","-d","FOREGROUND"]
+CMD ["/usr/sbin/httpd","-D","FOREGROUND"]
