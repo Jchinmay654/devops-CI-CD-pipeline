@@ -8,3 +8,4 @@ cp -rf eflyer/* . &&\
 rm -rf eflyer &&\
 EXPOSE 80
 CMD ["/usr/sbin/httpd","-D","FOREGROUND"]
+#completed
