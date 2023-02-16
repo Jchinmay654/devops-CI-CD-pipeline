@@ -1,5 +1,5 @@
 From centos:latest
-RUN yum install httpd zip unzip -y
+RUN yum install httpd  unzip -y
 ADD https://www.free-css.com/assets/files/free-css-templates/download/page287/eflyer.zip /var/www/html
 WORKDIR /var/www/html
 RUN unzip eflyer.zip
